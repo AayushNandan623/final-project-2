@@ -22,7 +22,7 @@ const TopicQuizPage = () => {
 
   useEffect(() => {
     startTopicQuiz(topicId);
-  }, [topicId]);
+  }, [startTopicQuiz, topicId]);
 
   if (!activeQuestions.length) return <p>Loading quiz…</p>;
 

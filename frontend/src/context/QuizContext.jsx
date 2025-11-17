@@ -1,4 +1,9 @@
-import React, { createContext, useContext, useState } from "react";
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useState,
+} from "react";
 import { API_BASE } from "../config/api";
 
 const QuizContext = createContext(null);
@@ -13,7 +18,7 @@ export const QuizProvider = ({ children }) => {
   const [showImmediateFeedback, setShowImmediateFeedback] = useState(true);
 
   // Load full quiz from backend
-  const startFullQuiz = async () => {
+  const startFullQuiz = useCallback(async () => {
     setMode("full");
     setCurrentTopicId(null);
     setCurrentIndex(0);
@@ -25,10 +30,10 @@ export const QuizProvider = ({ children }) => {
     });
     const data = await res.json();
     setActiveQuestions(data.questions || []);
-  };
+  }, []);
 
   // Load topic quiz from backend
-  const startTopicQuiz = async (topicId) => {
+  const startTopicQuiz = useCallback(async (topicId) => {
     setMode("topic");
     setCurrentTopicId(topicId);
     setCurrentIndex(0);
@@ -40,31 +45,34 @@ export const QuizProvider = ({ children }) => {
     });
     const data = await res.json();
     setActiveQuestions(data.questions || []);
-  };
+  }, []);
 
-  const selectAnswerForCurrent = (selectedIndex) => {
-    const q = activeQuestions[currentIndex];
-    if (!q) return;
-    setAnswers((prev) => ({
-      ...prev,
-      [q.id]: selectedIndex,
-    }));
-  };
+  const selectAnswerForCurrent = useCallback(
+    (selectedIndex) => {
+      const q = activeQuestions[currentIndex];
+      if (!q) return;
+      setAnswers((prev) => ({
+        ...prev,
+        [q.id]: selectedIndex,
+      }));
+    },
+    [activeQuestions, currentIndex]
+  );
 
-  const goNext = () => {
+  const goNext = useCallback(() => {
     setCurrentIndex((idx) => Math.min(idx + 1, activeQuestions.length - 1));
-  };
+  }, [activeQuestions.length]);
 
-  const resetQuiz = () => {
+  const resetQuiz = useCallback(() => {
     setMode(null);
     setCurrentTopicId(null);
     setActiveQuestions([]);
     setCurrentIndex(0);
     setAnswers({});
     setResult(null);
-  };
+  }, []);
 
-  const finishQuiz = async () => {
+  const finishQuiz = useCallback(async () => {
     const payloadAnswers = {};
     Object.entries(answers).forEach(([qid, idx]) => {
       payloadAnswers[qid] = { selectedIndex: idx };
@@ -84,7 +92,7 @@ export const QuizProvider = ({ children }) => {
     const data = await res.json();
     setResult(data);
     localStorage.setItem("hre_lastScore", JSON.stringify(data));
-  };
+  }, [answers, currentTopicId]);
 
   return (
     <QuizContext.Provider
@@ -110,4 +118,5 @@ export const QuizProvider = ({ children }) => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useQuiz = () => useContext(QuizContext);
