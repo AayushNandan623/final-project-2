@@ -1,0 +1,99 @@
+[
+  {
+    "id": "equality",
+    "title": "Right to Equality",
+    "summary": "Protection against all forms of discrimination and guarantee of equal treatment.",
+    "fullExplanation": "The Right to Equality ensures that all individuals are treated equally regardless of caste, religion, race, gender, or background. It protects people from discrimination in public places, workplaces, education, and government systems. Equality does not mean everyone is identical; it means everyone has fair access to opportunities, resources, and justice.",
+    "examples": [
+      "A woman receiving the same salary as a man for the same work.",
+      "A restaurant cannot refuse service due to caste or religion.",
+      "A student cannot be bullied or excluded because of skin color."
+    ],
+    "scenarios": [
+      "If someone is denied entry to a public place because of caste, it violates equality.",
+      "Government reservations help uplift historically disadvantaged groups."
+    ],
+    "laws": [
+      "UDHR Article 1 & 7",
+      "Indian Constitution Articles 14–18 (Article 17 abolishes untouchability)"
+    ],
+    "easyExplanation": "Equality means nobody is more important than you, and nobody is less important than you. Everyone should be treated fairly.",
+    "didYouKnow": "Nearly 1 in 3 people globally face discrimination.",
+    "summaryText": "The Right to Equality prevents discrimination and ensures fairness for all individuals in society."
+  },
+  {
+    "id": "freedom",
+    "title": "Right to Freedom",
+    "summary": "Freedom to think, speak, travel, practice any profession, and express opinions responsibly.",
+    "fullExplanation": "The Right to Freedom includes freedom of speech, movement, profession, and belief. These freedoms allow individuals to express themselves, explore new ideas, participate in democracy, and follow any profession. However, the right is not absolute—hate speech, violent actions, or actions harming others are not protected.",
+    "examples": [
+      "Posting your opinion online freely.",
+      "Peacefully protesting without violence.",
+      "Choosing any career or profession you like."
+    ],
+    "scenarios": [
+      "A journalist writing a critical article about the government is protected.",
+      "Spreading hate or violence is not protected and violates restrictions."
+    ],
+    "laws": ["UDHR Article 19", "Indian Constitution Article 19(1) a–g"],
+    "easyExplanation": "Freedom means you can speak, travel, and think freely, but not harm others through your actions.",
+    "didYouKnow": "Internet shutdowns are considered restrictions on freedom of expression.",
+    "summaryText": "Freedom helps individuals participate in democracy and express themselves while respecting others."
+  },
+  {
+    "id": "exploitation",
+    "title": "Right Against Exploitation",
+    "summary": "Protection from human trafficking, child labor, forced labor, and exploitation.",
+    "fullExplanation": "The Right Against Exploitation protects individuals from being misused, abused, or forced into labor. It bans trafficking, child labor, bonded labor, and exploitation by employers. No one can be treated as a commodity.",
+    "examples": [
+      "A child working in a factory is exploitation.",
+      "Forcing workers into labor without pay.",
+      "Human trafficking for illegal activities."
+    ],
+    "scenarios": [
+      "A child under 14 cannot work in hazardous industries.",
+      "A person forced to work to repay debt is bonded labor."
+    ],
+    "laws": ["UDHR Articles 4 & 5", "Indian Constitution Articles 23–24"],
+    "easyExplanation": "Nobody can force you to work or use you for money.",
+    "didYouKnow": "Over 160 million children worldwide are forced into child labor.",
+    "summaryText": "This right ensures vulnerable populations are protected from abuse and unfair treatment."
+  },
+  {
+    "id": "religion",
+    "title": "Right to Freedom of Religion",
+    "summary": "Freedom to practice, follow, or change any religion without fear.",
+    "fullExplanation": "This right ensures individuals can practice any religion, change their religion, or not follow any religion at all. However, religious freedom does not allow violence, hatred, or forced conversions.",
+    "examples": [
+      "A person can convert religion by choice.",
+      "A school cannot force students to follow one religion.",
+      "Religious institutions can manage their own affairs."
+    ],
+    "scenarios": [
+      "People celebrating festivals freely.",
+      "No one can force religious beliefs onto others."
+    ],
+    "laws": ["UDHR Article 18", "Indian Constitution Articles 25–28"],
+    "easyExplanation": "Everyone can follow any religion they want, peacefully.",
+    "didYouKnow": "India is one of the most religiously diverse countries in the world.",
+    "summaryText": "This right maintains harmony and protects spiritual freedom."
+  },
+  {
+    "id": "culture",
+    "title": "Cultural & Educational Rights",
+    "summary": "Protection for minority languages, cultures, and educational institutions.",
+    "fullExplanation": "Cultural and educational rights allow minorities—religious or linguistic—to preserve their identity, language, and customs. They can establish schools and institutions to protect their cultural uniqueness.",
+    "examples": [
+      "A minority community opening a school teaching its language.",
+      "Students not being forced to adopt only one culture."
+    ],
+    "scenarios": [
+      "Tribal communities preserving their traditions.",
+      "Minority-run schools teaching in their mother tongue."
+    ],
+    "laws": ["UDHR Article 22", "Indian Constitution Articles 29–30"],
+    "easyExplanation": "Minority groups can protect their culture and teach their traditions.",
+    "didYouKnow": "India has more than 19,500 languages and dialects.",
+    "summaryText": "These rights ensure cultural diversity and educational freedom."
+  }
+]
