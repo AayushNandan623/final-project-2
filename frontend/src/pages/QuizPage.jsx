@@ -16,7 +16,9 @@ export default function QuizPage() {
     setShowImmediateFeedback,
   } = useQuiz();
 
-  useEffect(() => startFullQuiz(), []);
+  useEffect(() => {
+    startFullQuiz();
+  }, [startFullQuiz]);
 
   if (!activeQuestions.length) return <p>Loading quiz…</p>;
 
