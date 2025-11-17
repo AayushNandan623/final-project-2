@@ -1,0 +1,62 @@
+[
+  {
+    "id": "right-to-equality",
+    "title": "Right to Equality",
+    "summary": "All persons are equal before the law and entitled to equal protection.",
+    "fullExplanation": "The Right to Equality ensures that every individual, regardless of caste, religion, gender, economic status, or background, is treated equally under the law. It prohibits discrimination and promotes fairness in opportunities such as education, employment, and access to public places.",
+    "examples": [
+      "Men and women receiving equal pay for equal work.",
+      "All citizens having the same voting rights."
+    ],
+    "scenarios": [
+      "A qualified candidate is rejected from a job only because of caste.",
+      "Women are paid less than men for doing the same work."
+    ],
+    "didYouKnow": "In India, Articles 14–18 of the Constitution protect the Right to Equality."
+  },
+  {
+    "id": "freedom-of-expression",
+    "title": "Freedom of Expression",
+    "summary": "The right to freely express ideas and opinions without fear.",
+    "fullExplanation": "Freedom of expression allows individuals to share their ideas, opinions, and information through speech, writing, art, protest, or digital media, as long as it does not incite violence or spread hate. It is essential for democracy, accountability, and informed decision-making.",
+    "examples": [
+      "Students peacefully protesting against a policy.",
+      "A journalist publishing an article that criticizes the government."
+    ],
+    "scenarios": [
+      "A person is arrested for peacefully criticizing a public policy.",
+      "A school punishes students for starting a fact-based awareness campaign."
+    ],
+    "didYouKnow": "Article 19 of the Universal Declaration of Human Rights protects freedom of expression."
+  },
+  {
+    "id": "right-to-education",
+    "title": "Right to Education",
+    "summary": "Every child has the right to free and compulsory elementary education.",
+    "fullExplanation": "The Right to Education ensures that children can attend school without facing discrimination or financial barriers. Quality education helps individuals understand their rights, develop skills, and participate fully in society.",
+    "examples": [
+      "Free government schools for children from all backgrounds.",
+      "Scholarship schemes for economically weaker sections."
+    ],
+    "scenarios": [
+      "Girls are forced to drop out of school after primary classes.",
+      "A school refuses admission to a child with a disability."
+    ],
+    "didYouKnow": "In India, the Right of Children to Free and Compulsory Education Act, 2009, enforces this right."
+  },
+  {
+    "id": "right-to-privacy",
+    "title": "Right to Privacy",
+    "summary": "Individuals have the right to keep their personal life and data private.",
+    "fullExplanation": "The Right to Privacy protects individuals from unnecessary surveillance, data misuse, and interference in personal decisions. It includes the confidentiality of personal data, private communications, and the sanctity of one’s home.",
+    "examples": [
+      "Medical records are kept confidential.",
+      "Private messages cannot be accessed without legal authorization."
+    ],
+    "scenarios": [
+      "An app collects more data than it needs and sells it without consent.",
+      "Cameras are installed in private changing rooms."
+    ],
+    "didYouKnow": "In 2017, the Supreme Court of India declared the Right to Privacy as a fundamental right."
+  }
+]

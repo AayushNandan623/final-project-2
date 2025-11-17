@@ -1,0 +1,56 @@
+[
+  {
+    "id": "right-to-equality",
+    "title": "Right to Equality",
+    "summary": "All individuals are equal before the law without discrimination.",
+    "fullExplanation": "The Right to Equality ensures that every person receives equal treatment and protection regardless of race, gender, religion, caste, disability, economic background, or social status.",
+    "examples": [
+      "Equal pay for equal work.",
+      "Equal voting rights for all citizens."
+    ],
+    "scenarios": [
+      "A job applicant rejected due to caste.",
+      "Men and women paid differently for the same role."
+    ],
+    "didYouKnow": "Right to Equality is protected under Articles 14–18 of the Indian Constitution."
+  },
+  {
+    "id": "freedom-of-expression",
+    "title": "Freedom of Expression",
+    "summary": "The right to freely express opinions and ideas.",
+    "fullExplanation": "You can express views, share opinions, discuss issues, and criticize authorities peacefully. This right maintains democratic accountability and supports an informed society.",
+    "examples": ["Peaceful protests", "Publishing a research article"],
+    "scenarios": [
+      "An activist arrested for sharing facts online.",
+      "Students suspended for peaceful criticism of school administration."
+    ],
+    "didYouKnow": "Article 19 of the Universal Declaration of Human Rights guarantees freedom of expression."
+  },
+  {
+    "id": "right-to-education",
+    "title": "Right to Education",
+    "summary": "Everyone has the right to free and compulsory education.",
+    "fullExplanation": "Education must be accessible to all children and should promote respect for human rights, equality, and freedom.",
+    "examples": [
+      "Free government schooling",
+      "Scholarships for weaker sections"
+    ],
+    "scenarios": [
+      "Girls forced to drop out of school.",
+      "Child with disability denied admission."
+    ],
+    "didYouKnow": "The Right of Children to Free and Compulsory Education Act, 2009, guarantees free education in India."
+  },
+  {
+    "id": "right-to-privacy",
+    "title": "Right to Privacy",
+    "summary": "Individuals have the right to protect personal information and private life.",
+    "fullExplanation": "This includes confidentiality of personal conversations, digital data privacy, and freedom from surveillance unless legally justified.",
+    "examples": ["Secured medical records", "Private messages protected"],
+    "scenarios": [
+      "Apps collecting unnecessary data.",
+      "Unauthorized CCTV monitoring in private spaces."
+    ],
+    "didYouKnow": "In 2017, the Supreme Court of India declared privacy as a fundamental right."
+  }
+]
